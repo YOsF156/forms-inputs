@@ -214,7 +214,7 @@ function FormExample() {
 
         type="file"
         id="filee"
-
+        accept="image/*"
         // value={fileValue}
         onChange={handleFileChange}
       />
